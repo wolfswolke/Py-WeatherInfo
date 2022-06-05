@@ -1,0 +1,22 @@
+# ------------------------------------------------------- #
+#                 SpeedMonitor Config
+# ------------------------------------------------------- #
+general:
+  version: v01-00-00
+  debug_level: debug
+
+# ------------------------------------------------------- #
+#                    SpeedMonitor
+# ------------------------------------------------------- #
+monitor:
+  check_cycle_in_minutes: 5
+
+# ------------------------------------------------------- #
+#                        InfluxDB
+# ------------------------------------------------------- #
+influx:
+  connection_string: https://YourFluxDB/
+#  connection_string: https://YourFluxDB/
+  token: YourToken
+  org: YourOrganisation
+  bucket: YourBucket

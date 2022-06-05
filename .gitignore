@@ -1,0 +1,7 @@
+.idea/
+*.logs*
+*.zip
+__pycache__/
+Weather_Data_Collector_v9-9-9/
+config/speed_monitor.yml
+Dockerfile
